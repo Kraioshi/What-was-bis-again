@@ -106,49 +106,49 @@ if st.session_state["magic_role"] and st.session_state["summoner"]:
 
         smn_2_48 = st.button("2.48")
         if smn_2_48:
-            webbrowser.open(smn_two_48)
+            webbrowser.open_new_tab(smn_two_48)
         smn_2_47 = st.button("2.47")
         if smn_2_47:
-            webbrowser.open(smn_two_47)
+            webbrowser.open_new_tab(smn_two_47)
         smn_2_46 = st.button("2.46")
         if smn_2_46:
-            webbrowser.open(smn_two_46)
+            webbrowser.open_new_tab(smn_two_46)
         smn_2_45 = st.button("2.45")
         if smn_2_45:
-            webbrowser.open(smn_two_45)
+            webbrowser.open_new_tab(smn_two_45)
 
     with col3:
         st.markdown("")
         st.subheader("**SPS BIS**")
         smn_2_19 = st.button("2.19")
         if smn_2_19:
-            webbrowser.open(smn_two_19)
+            webbrowser.open_new_tab(smn_two_19)
         smn_2_18 = st.button("2.18")
         if smn_2_18:
-            webbrowser.open(smn_two_18)
+            webbrowser.open_new_tab(smn_two_18)
 
     with col3:
         st.markdown("")
         st.subheader("**Ez Rank 1**")
         lol = st.button("1.01")
         if lol:
-            webbrowser.open(rickroll)
+            webbrowser.open_new_tab(rickroll)
 
 if st.session_state["magic_role"] and st.session_state["black_mage"]:
     with col3:
         st.subheader("**Crit BIS**")
         blm_1292 = st.button("1292 SPS")
         if blm_1292:
-            webbrowser.open(blm_12_92)
+            webbrowser.open_new_tab(blm_12_92)
         blm_840 = st.button("840 SPS")
         if blm_840:
-            webbrowser.open(blm_84_0)
+            webbrowser.open_new_tab(blm_84_0)
     with col3:
         st.markdown("")
         st.subheader("**SPS BIS**")
         blm_2287 = st.button("2287 SPS")
         if blm_2287:
-            webbrowser.open(blm_22_87)
+            webbrowser.open_new_tab(blm_22_87)
 
 if st.session_state["magic_role"] and st.session_state["red_mage"]:
     with col3:
@@ -157,7 +157,7 @@ if st.session_state["magic_role"] and st.session_state["red_mage"]:
             st.session_state["rdm_2.48"] = False
         rdm_248 = st.button("2.48")
         if rdm_248:
-            webbrowser.open(rdm_bis)
+            webbrowser.open_new_tab(rdm_bis)
 
 # Physical
 if st.session_state["physical_role"]:
